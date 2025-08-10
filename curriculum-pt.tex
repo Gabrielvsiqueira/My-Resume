@@ -1,0 +1,81 @@
+\documentclass[10pt,a4paper,sans]{moderncv}
+
+% --- PACKAGES ---
+\usepackage{graphicx}
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.8, top=1.5cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+% \usepackage{hyperref} % <-- REMOVED THIS LINE TO FIX THE ERROR
+\nopagenumbers
+
+% --- PERSONAL DATA ---
+\name{Gabriel Vitor}{Siqueira}
+\title{Engenheiro de Software}
+\email{gabesiqueira25@gmail.com}
+\phone[mobile]{+55 (42) 99957-0539}
+\social[linkedin]{gabriel-vitor-siqueira}
+\social[github]{Gabrielvsiqueira}
+
+\begin{document}
+\makecvtitle
+
+% --- PROFESSIONAL PROFILE ---
+\section{Perfil Profissional}
+\cvitem{}{\small Engenheiro de Software orientado a resultados, com mais de 3 anos de experiência em projeto, desenvolvimento e implantação de aplicações web escaláveis e de alta performance. Habilidade comprovada em aumentar a estabilidade de sistemas e acelerar a velocidade de desenvolvimento, exemplificada pela resolução de mais de 150 bugs críticos em produção e pela criação de uma biblioteca de componentes que acelerou o desenvolvimento de novas funcionalidades em 25\%. Especialista em \textbf{React, Node.js, PostgreSQL, CI/CD} e serviços em nuvem \textbf{(AWS)}.}
+
+% --- PROFESSIONAL EXPERIENCE ---
+\section{Experiência Profissional}
+\cventry{Abril 2024 -- Presente}{Engenheiro de Software}{Globant LTDA}{Remoto}{}
+{
+    \begin{itemize}
+        \item Liderei a otimização de performance de um Design System, reduzindo o tempo de carregamento de componentes em \textbf{30\%} e melhorando a pontuação no Google Lighthouse em 15 pontos.
+        \item Desenvolvi uma biblioteca de componentes reutilizáveis em React, Vue.js e Angular, acelerando a velocidade de desenvolvimento em \textbf{25\%} em três equipes de produto.
+        \item Projetei e implementei a segurança de endpoints de API RESTful, lidando com mais de 30.000 requisições por dia e utilizando autenticação JWT para garantir 100\% de integridade dos dados.
+        \item Automatizei o ciclo de build, teste e deploy com Jenkins e GitHub Actions, reduzindo falhas manuais a zero e economizando uma estimativa de 8 horas de desenvolvimento por semana.
+    \end{itemize}
+}
+
+\cventry{Abril 2022 -- Março 2024}{Desenvolvedor Júnior}{Trizy by Nstech}{Remoto}{}
+{
+    \begin{itemize}
+        \item Desenvolvi e entreguei mais de 5 grandes funcionalidades para uma plataforma de logística nacional usando Node.js e React, suportando mais de \textbf{10.000 usuários ativos diariamente}.
+        \item Resolvi mais de \textbf{150 bugs críticos de produção} (N1/N2) em PL/SQL e Node.js, melhorando a estabilidade do sistema em 40\%, com base na redução de tickets recorrentes.
+        \item Estabeleci um novo framework de testes end-to-end com Cypress, aumentando a cobertura de testes automatizados de 10\% para \textbf{45\%} e detectando 98\% das regressões críticas.
+    \end{itemize}
+}
+
+% --- PROJECTS ---
+\section{Projetos}
+\cventry{Projeto Acadêmico}{Análise de Dados de Wi-Fi}{}{React, TypeScript, Chart.js}{}{
+    \begin{itemize}
+        \item Desenvolvi uma aplicação web full-stack para análise de redes Wi-Fi com funcionalidades CRUD, integrando Chart.js para gerar visualizações de dados dinâmicas e interativas. O projeto está disponível em: \href{https://analise-wifi.vercel.app/}{analise-wifi.vercel.app}.
+    \end{itemize}
+}
+
+\cventry{Projeto Freelance}{Landing Page Dr. Miranda}{}{JavaScript, HTML5, Tailwind CSS}{}{
+    \begin{itemize}
+        \item Projetei e desenvolvi uma landing page responsiva para expandir a presença online de um cliente, resultando em um aumento de \textbf{30\%} nas solicitações de consulta. O projeto está disponível em: \href{https://dr-miranda.vercel.app/}{dr-miranda.vercel.app}.
+    \end{itemize}
+}
+
+
+% --- TECHNICAL SKILLS ---
+\section{Competências Técnicas}
+\cvitem{Frontend}{React, Next.js, TypeScript, JavaScript (ES6+), HTML5, CSS3, React Native}
+\cvitem{Backend}{Node.js, Express.js, NestJS, PHP, Laravel, APIs RESTful \& GraphQL, PL/SQL}
+\cvitem{BD}{PostgreSQL, MySQL, MongoDB}
+\cvitem{DevOps\&Cloud}{CI/CD, Docker, AWS (EC2, S3), Jenkins, GitHub Actions, Azure DevOps}
+\cvitem{Testes \& QA}{Playwright, Cypress, Jest, Testes Unitários e End-to-End, TDD}
+\cvitem{Metodologias}{Agile, Scrum, Kanban, Git, Jira}
+
+% --- EDUCATION ---
+\section{Formação Acadêmica}
+\cventry{2019 -- 2025 (Previsto)}{Bacharelado em Ciência da Computação}{Universidade Tecnológica Federal do Paraná (UTFPR)}{Ponta Grossa, PR}{}{}
+
+% --- LANGUAGES ---
+\section{Idiomas}
+\cvitem{Português}{Nativo}
+\cvitem{Inglês}{Profissional Avançado (C1)}
+
+\end{document}
