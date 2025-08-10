@@ -1,0 +1,81 @@
+\documentclass[10pt,a4paper,sans]{moderncv}
+
+% --- PACKAGES ---
+\usepackage{graphicx}
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.8, top=1.5cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+% \usepackage{hyperref} % <-- REMOVED THIS LINE TO FIX THE ERROR
+\nopagenumbers
+
+% --- PERSONAL DATA ---
+\name{Gabriel Vitor}{Siqueira}
+\title{Software Engineer}
+\email{gabesiqueira25@gmail.com}
+\phone[mobile]{+55 (42) 99957-0539}
+\social[linkedin]{gabriel-vitor-siqueira}
+\social[github]{Gabrielvsiqueira}
+
+\begin{document}
+\makecvtitle
+
+% --- PROFESSIONAL PROFILE ---
+\section{Professional Profile}
+\cvitem{}{\small Results-driven Software Engineer with over 3 years of experience in designing, developing, and deploying high-performance, scalable web applications. Proven ability to enhance system stability and accelerate development velocity, exemplified by resolving over 150 critical production bugs and engineering a component library that boosted feature development by 25\%. Expertise in \textbf{React, Node.js, PostgreSQL, CI/CD}, and cloud services \textbf{(AWS)}.}
+
+% --- PROFESSIONAL EXPERIENCE ---
+\section{Professional Experience}
+\cventry{April 2024 -- Present}{Software Engineer}{Globant LTDA}{Remote}{}
+{
+    \begin{itemize}
+        \item Spearheaded a performance overhaul of a core Design System, reducing component load times by \textbf{30\%} and improving the Google Lighthouse performance score by 15 points.
+        \item Engineered a reusable component library in React, Vue.js, and Angular, accelerating feature development velocity by \textbf{25\%} across three separate product teams.
+        \item Designed and secured RESTful API endpoints handling over 30,000 requests per day, implementing JWT-based authentication to ensure 100\% data integrity.
+        \item Automated the entire build, test, and deployment lifecycle using Jenkins and GitHub Actions, reducing manual deployment failures to zero and saving an estimated 8 developer-hours per week.
+    \end{itemize}
+}
+
+\cventry{April 2022 -- March 2024}{Junior Developer}{Trizy by Nstech}{Remote}{}
+{
+    \begin{itemize}
+        \item Developed and shipped 5+ major features for a national logistics platform using Node.js and React, supporting over \textbf{10,000 daily active users}.
+        \item Resolved over \textbf{150 critical production bugs} (N1/N2) in PL/SQL and Node.js, improving system stability by 40\% based on a reduction in recurring issue tickets.
+        \item Established a new end-to-end testing framework with Cypress, increasing automated test coverage from 10\% to \textbf{45\%} and catching 98\% of critical regressions.
+    \end{itemize}
+}
+
+% --- PROJECTS ---
+\section{Projects}
+\cventry{Academic Project}{Wi-Fi Data Analysis}{}{React, TypeScript, Chart.js}{}{
+    \begin{itemize}
+        \item Developed a full-stack web application for Wi-Fi network analysis with CRUD functionality, integrating Chart.js to generate dynamic, interactive data visualizations. The live project is available at \href{https://analise-wifi.vercel.app/}{analise-wifi.vercel.app}.
+    \end{itemize}
+}
+
+\cventry{Freelance Project}{Dr. Miranda Landing Page}{}{JavaScript, HTML5, Tailwind CSS}{}{
+    \begin{itemize}
+        \item Designed and developed a responsive landing page to expand a client's online presence, resulting in a \textbf{30\% increase} in consultation inquiries. The live project is available at \href{https://dr-miranda.vercel.app/}{dr-miranda.vercel.app}.
+    \end{itemize}
+}
+
+
+% --- TECHNICAL SKILLS ---
+\section{Technical Skills}
+\cvitem{Frontend}{React, Next.js, TypeScript, JavaScript (ES6+), HTML5, CSS3, React Native}
+\cvitem{Backend}{Node.js, Express.js, NestJS, PHP, Laravel, RESTful \& GraphQL APIs, PL/SQL}
+\cvitem{Databases}{PostgreSQL, MySQL, MongoDB}
+\cvitem{DevOps \& Cloud}{CI/CD, Docker, AWS (EC2, S3), Jenkins, GitHub Actions, Azure DevOps}
+\cvitem{Testing \& QA}{Playwright, Cypress, Jest, Unit \& End-to-End Testing, TDD}
+\cvitem{Methodologies}{Agile, Scrum, Kanban, Git, Jira}
+
+% --- EDUCATION ---
+\section{Education}
+\cventry{2019 -- 2025 (Expected)}{B.S. in Computer Science}{Federal University of Technology - Paraná (UTFPR)}{Ponta Grossa, PR}{}{}
+
+% --- LANGUAGES ---
+\section{Languages}
+\cvitem{Portuguese}{Native}
+\cvitem{English}{Professional Advanced (C1)}
+
+\end{document}
