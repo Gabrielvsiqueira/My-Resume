@@ -1,4 +1,4 @@
-# My Resume
+# My Resume - Gabriel Vitor Siqueira
 
 Este repositório contém o código-fonte do meu currículo, escrito em LaTeX. O processo de compilação e versionamento é totalmente automatizado usando GitHub Actions.
 
