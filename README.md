@@ -38,7 +38,5 @@ Após o push da tag, a GitHub Action será iniciada e, em poucos minutos, a nova
 - **Estilo**: `moderncv`
 - **Automação**: Make
 - **CI/CD**: GitHub Actions
-
-## 🙏 Inspiração
-
+- 
 Este projeto foi inspirado no repositório [resume do @Calebe94](https://github.com/Calebe94/resume).
